@@ -1,0 +1,248 @@
+.site-head {
+    height: 150px;
+}
+
+.site-head .topbar {
+    height: 32px;
+    background: #2a2a2a;
+    color: white;
+    line-height: 32px;
+}
+
+.site-head .topbar a {
+    color: white;
+}
+
+.site-head .topbar .shortcut-links {
+    float: left;
+}
+
+.site-head .topbar .shortcut-links>ul>li {
+    float: left;
+    margin-right: 18px;
+    font-size: 14px;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu {
+    padding-right: 12px;
+    position: relative;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    transition: transform .2s ease 0s;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu:hover .arrow {
+    transform: rotate(180deg);
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .arrow b {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .arrow i {
+    position: absolute;
+    left: 3px;
+    top: -1px;
+    width: 6px;
+    height: 6px;
+    background-color: #2a2a2a;
+    transform: rotate(45deg);
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .menu {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20);
+    padding: 10px;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu:hover .menu {
+    display: block;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .sqmenu {
+    width: 110px;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .scmenu {
+    width: 80px;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .jdmsmenu {
+    width: 80px;
+}
+
+/* 鼠标碰到have-menu，就让menu出现 */
+
+.site-head .topbar .shortcut-links>ul>li.have-menu:hover .menu {
+    display: block;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .menu .menu-list li {
+    height: 20px;
+    line-height: 20px;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .menu .menu-list a {
+    font-size: 12px;
+    color: #1C1F21;
+    line-height: 20px;
+}
+
+.site-head .topbar .shortcut-links>ul>li.have-menu .menu .menu-list a:hover {
+    color: orange;
+}
+
+.site-head .topbar .topbar-r {
+    float: right;
+    width: 225px;
+}
+
+.site-head .topbar .topbar-r a, .site-head .topbar .topbar-r span {
+    margin-right: 11px;
+    font-size: 14px;
+}
+
+.site-head .topbar .topbar-r a:last-child {
+    margin-right: 0;
+}
+
+.site-head .main-nav {
+    height: 40px;
+    background-color: #20BD9A;
+}
+
+.site-head .main-nav ul li {
+    float: left;
+    margin-right: 18px;
+}
+
+.site-head .main-nav ul li.have-menu {
+    padding-right: 16px;
+    position: relative;
+}
+
+.site-head .main-nav ul li a {
+    line-height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.site-head .main-nav ul li.have-menu::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 0px;
+    height: 0px;
+    border: 5px solid transparent;
+    border-bottom: none;
+    border-top-color: white;
+    transition: transform .5s ease 0s;
+}
+
+.site-head .main-nav ul li.have-menu:hover::before {
+    transform: rotate(180deg);
+}
+
+.site-head .main-nav ul li .menu {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20);
+    padding: 10px;
+    display: none;
+}
+
+.site-head .main-nav ul li:hover .menu {
+    display: block;
+}
+
+.site-head .main-nav ul li .menu dl dd a:hover {
+    color: orange;
+}
+
+.site-head .main-nav ul li .jjzyxmenu {
+    width: 150px;
+}
+
+.site-head .main-nav ul li .gtymenu {
+    width: 90px;
+}
+
+.site-head .main-nav ul li .ddwlmenu {
+    width: 190px;
+}
+
+.site-head .main-nav ul li .sdlymenu {
+    width: 160px;
+}
+
+.site-head .main-nav ul li .menu dl dt {
+    font-size: 16px;
+}
+
+.site-head .main-nav ul li .menu dl dd a {
+    color: #1C1F21;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.site-head .header-con {
+    height: 36px;
+}
+
+.site-head .header-con h1 {
+    float: left;
+    font-size: 24px;
+    color: #20BD9A;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.site-head .header-con .soso-box {
+    float: left;
+    margin-left: 20px;
+    width: 405px;
+    padding-top: 2px;
+}
+
+.site-head .header-con .soso-box input {
+    float: left;
+    width: 361px;
+    height: 28px;
+    border: 1px solid #20BD9A;
+    border-radius: 4px 0 0 4px;
+    font-size: 12px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.site-head .header-con .soso-box .btn {
+    float: left;
+    width: 32px;
+    height: 30px;
+    background-color: #20BD9A;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
